@@ -1,24 +1,71 @@
 {
-    "name": "practice01",
+    "name": "Nine Cores (2025 heist jam SUBMISSION)",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "pxt-arcade-image-transform": "github:robo-technical-group/pxt-arcade-image-transform#v1.0.9",
+        "arcade-sprite-util": "github:jwunderl/arcade-sprite-util#v0.4.1",
+        "browser-events": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.2.1",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "Extra Effects": "github:alexszeto/extra-effects#v3.1.0",
+        "arcade-tile-util": "github:microsoft/arcade-tile-util#v1.2.0",
+        "arcade-fancy-text": "github:riknoll/arcade-fancy-text#v0.2.0",
+        "HUGE_7Seg_NUMBERS (font)": "pub:61963-65461-89745-57472",
+        "BetterArrays": "github:sargedev/betterarrays#v1.2.2",
+        "Stats": "github:UnsignedArduino/Stats#758e35856bd5565e5d0e25c95cccfac79b7fc168",
+        "info-blocks-extra": "github:robo-technical-group/pxt-info-blocks-extra#v1.0.4",
+        "pxt-sight": "github:felixtsu/pxt-sight#v0.2.2",
+        "DeltaTime Extension": "github:kiwiphoenix364/pxt-deltatime#v3.0.0"
     },
     "files": [
         "main.blocks",
         "main.ts",
         "README.md",
-        "assets.json"
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
     "targetVersions": {
+        "branch": "v2.0.56",
+        "tag": "v2.0.56",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/2e47d3464cf6ea715ec6e630834bbe15bc2f6feb",
         "target": "2.0.63",
+        "pxt": "11.3.59",
         "targetId": "arcade"
     },
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "blocksprj",
+    "theme": {
+        "skin": "p1, red",
+        "background-color": "#2F213B",
+        "button-stroke": "#433A60",
+        "text-color": "#7C94A1",
+        "button-fill": "#4F5277",
+        "dpad-fill": "#433A60"
+    },
+    "palette": [
+        "#000000",
+        "#c0d1cc",
+        "#603b3a",
+        "#170e19",
+        "#775c4f",
+        "#77744f",
+        "#4f7754",
+        "#a19f7c",
+        "#4f5277",
+        "#65738c",
+        "#3a604a",
+        "#213b25",
+        "#433a60",
+        "#7c94a1",
+        "#3b2137",
+        "#2f213b"
+    ]
 }
